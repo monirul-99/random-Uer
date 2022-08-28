@@ -1,0 +1,60 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.img-card {
+    width: 151px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.img-card > img{
+    width: 100%;
+}
+.button-design{
+    margin-top: 50px;
+    margin-left: 70px
+}
+.color{
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 16%, #CF1512 54%);
+    background: -moz-linear-gradient(to right, #121FCF 16%, #CF1512 54%);
+    background: linear-gradient(to right, #121FCF 16%, #CF1512 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-grad {
+background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+border: none;
+}
+
+.btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
